@@ -1,0 +1,6 @@
+@KopitiamApi_HostAddress = http://localhost:5136
+
+GET {{KopitiamApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
