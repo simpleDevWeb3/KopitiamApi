@@ -21,7 +21,7 @@ namespace KopitiamApi.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
-            Console.WriteLine($"Generating weather forecast for day");
+            Console.WriteLine($"hello world");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
        
